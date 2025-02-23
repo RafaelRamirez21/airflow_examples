@@ -412,3 +412,45 @@
 [2025-02-23T03:15:57.849-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:15:57.848-0500] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-23T03:15:57.882-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:15:57.882-0500] {dag.py:4180} INFO - Setting next_dagrun for my-first-dag to 2025-02-23 00:00:00+00:00, run_after=2025-02-24 00:00:00+00:00
 [2025-02-23T03:15:57.946-0500] {processor.py:208} INFO - Processing /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py took 0.153 seconds
+[2025-02-23T03:16:56.585-0500] {processor.py:186} INFO - Started process (PID=86189) to work on /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:16:56.592-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py for tasks to queue
+[2025-02-23T03:16:56.595-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:16:56.595-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:16:56.608-0500] {processor.py:925} INFO - DAG(s) 'my-first-dag' retrieved from /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:16:56.626-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:16:56.626-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T03:16:56.655-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:16:56.655-0500] {dag.py:4180} INFO - Setting next_dagrun for my-first-dag to 2025-02-23 00:00:00+00:00, run_after=2025-02-24 00:00:00+00:00
+[2025-02-23T03:16:56.691-0500] {processor.py:208} INFO - Processing /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py took 0.115 seconds
+[2025-02-23T03:17:27.071-0500] {processor.py:186} INFO - Started process (PID=86291) to work on /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:17:27.075-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py for tasks to queue
+[2025-02-23T03:17:27.080-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:17:27.079-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:17:27.106-0500] {processor.py:925} INFO - DAG(s) 'my-first-dag' retrieved from /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:17:27.139-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:17:27.138-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T03:17:27.176-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:17:27.176-0500] {dag.py:4180} INFO - Setting next_dagrun for my-first-dag to 2025-02-23 00:00:00+00:00, run_after=2025-02-24 00:00:00+00:00
+[2025-02-23T03:17:27.227-0500] {processor.py:208} INFO - Processing /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py took 0.172 seconds
+[2025-02-23T03:17:59.448-0500] {processor.py:186} INFO - Started process (PID=86389) to work on /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:17:59.450-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py for tasks to queue
+[2025-02-23T03:17:59.454-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:17:59.453-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:17:59.464-0500] {processor.py:925} INFO - DAG(s) 'my-first-dag' retrieved from /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:17:59.486-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:17:59.486-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T03:17:59.510-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:17:59.509-0500] {dag.py:4180} INFO - Setting next_dagrun for my-first-dag to 2025-02-23 00:00:00+00:00, run_after=2025-02-24 00:00:00+00:00
+[2025-02-23T03:17:59.545-0500] {processor.py:208} INFO - Processing /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py took 0.105 seconds
+[2025-02-23T03:18:30.468-0500] {processor.py:186} INFO - Started process (PID=86546) to work on /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:18:30.475-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py for tasks to queue
+[2025-02-23T03:18:30.478-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:18:30.478-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:18:30.489-0500] {processor.py:925} INFO - DAG(s) 'my-first-dag' retrieved from /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:18:30.515-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:18:30.515-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T03:18:30.541-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:18:30.541-0500] {dag.py:4180} INFO - Setting next_dagrun for my-first-dag to 2025-02-23 00:00:00+00:00, run_after=2025-02-24 00:00:00+00:00
+[2025-02-23T03:18:30.573-0500] {processor.py:208} INFO - Processing /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py took 0.113 seconds
+[2025-02-23T03:19:01.305-0500] {processor.py:186} INFO - Started process (PID=86704) to work on /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:19:01.306-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py for tasks to queue
+[2025-02-23T03:19:01.309-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:19:01.309-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:19:01.323-0500] {processor.py:925} INFO - DAG(s) 'my-first-dag' retrieved from /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:19:01.348-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:19:01.347-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T03:19:01.376-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:19:01.376-0500] {dag.py:4180} INFO - Setting next_dagrun for my-first-dag to 2025-02-23 00:00:00+00:00, run_after=2025-02-24 00:00:00+00:00
+[2025-02-23T03:19:01.413-0500] {processor.py:208} INFO - Processing /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py took 0.120 seconds
+[2025-02-23T03:19:33.062-0500] {processor.py:186} INFO - Started process (PID=86807) to work on /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:19:33.064-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py for tasks to queue
+[2025-02-23T03:19:33.067-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:19:33.067-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:19:33.077-0500] {processor.py:925} INFO - DAG(s) 'my-first-dag' retrieved from /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py
+[2025-02-23T03:19:33.098-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:19:33.097-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T03:19:33.131-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:19:33.130-0500] {dag.py:4180} INFO - Setting next_dagrun for my-first-dag to 2025-02-23 00:00:00+00:00, run_after=2025-02-24 00:00:00+00:00
+[2025-02-23T03:19:33.172-0500] {processor.py:208} INFO - Processing /home/rafaelrb/DataEngineer/apache_airflow/dags/my_first_dag.py took 0.120 seconds

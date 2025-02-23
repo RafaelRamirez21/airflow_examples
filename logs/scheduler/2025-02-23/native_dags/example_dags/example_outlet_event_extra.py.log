@@ -974,3 +974,51 @@ Traceback (most recent call last):
 TypeError: _TaskDecorator() takes no arguments
 [2025-02-23T03:16:09.280-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py
 [2025-02-23T03:16:09.314-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.061 seconds
+[2025-02-23T03:17:07.227-0500] {processor.py:186} INFO - Started process (PID=86229) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2025-02-23T03:17:07.234-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2025-02-23T03:17:07.238-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:17:07.237-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2025-02-23T03:17:07.251-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:17:07.249-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 45, in <module>
+    def dataset_with_extra_by_yield():
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:17:07.252-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2025-02-23T03:17:07.283-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.065 seconds
+[2025-02-23T03:18:11.278-0500] {processor.py:186} INFO - Started process (PID=86434) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2025-02-23T03:18:11.285-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2025-02-23T03:18:11.288-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:18:11.288-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2025-02-23T03:18:11.298-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:18:11.297-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 45, in <module>
+    def dataset_with_extra_by_yield():
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:18:11.299-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2025-02-23T03:18:11.332-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.063 seconds
+[2025-02-23T03:19:15.620-0500] {processor.py:186} INFO - Started process (PID=86752) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2025-02-23T03:19:15.622-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2025-02-23T03:19:15.625-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:19:15.624-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2025-02-23T03:19:15.638-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:19:15.637-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 45, in <module>
+    def dataset_with_extra_by_yield():
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:19:15.639-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2025-02-23T03:19:15.674-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.065 seconds

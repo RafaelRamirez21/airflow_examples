@@ -1714,3 +1714,135 @@ Traceback (most recent call last):
 TypeError: _TaskDecorator() takes no arguments
 [2025-02-23T03:20:37.870-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
 [2025-02-23T03:20:37.906-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.070 seconds
+[2025-02-23T03:21:36.326-0500] {processor.py:186} INFO - Started process (PID=87227) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:21:36.329-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-02-23T03:21:36.333-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:21:36.332-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:21:36.342-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:21:36.340-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 133, in <module>
+    tutorial_objectstorage()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 67, in tutorial_objectstorage
+    def get_air_quality_data(**kwargs) -> ObjectStoragePath:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/python.py", line 75, in python_task
+    return task_decorator_factory(
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 680, in task_decorator_factory
+    decorator = _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:21:36.343-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:21:36.378-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.062 seconds
+[2025-02-23T03:22:37.939-0500] {processor.py:186} INFO - Started process (PID=87443) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:22:37.941-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-02-23T03:22:37.945-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:22:37.944-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:22:37.955-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:22:37.952-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 133, in <module>
+    tutorial_objectstorage()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 67, in tutorial_objectstorage
+    def get_air_quality_data(**kwargs) -> ObjectStoragePath:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/python.py", line 75, in python_task
+    return task_decorator_factory(
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 680, in task_decorator_factory
+    decorator = _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:22:37.956-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:22:38.001-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.075 seconds
+[2025-02-23T03:23:12.981-0500] {processor.py:186} INFO - Started process (PID=87552) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:23:12.988-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-02-23T03:23:12.992-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:23:12.991-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:23:13.004-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:23:13.001-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 133, in <module>
+    tutorial_objectstorage()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 67, in tutorial_objectstorage
+    def get_air_quality_data(**kwargs) -> ObjectStoragePath:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/python.py", line 75, in python_task
+    return task_decorator_factory(
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 680, in task_decorator_factory
+    decorator = _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:23:13.005-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:23:13.055-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.085 seconds
+[2025-02-23T03:24:12.528-0500] {processor.py:186} INFO - Started process (PID=87739) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:24:12.529-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-02-23T03:24:12.532-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:24:12.532-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:24:12.541-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:24:12.539-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 133, in <module>
+    tutorial_objectstorage()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 67, in tutorial_objectstorage
+    def get_air_quality_data(**kwargs) -> ObjectStoragePath:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/python.py", line 75, in python_task
+    return task_decorator_factory(
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 680, in task_decorator_factory
+    decorator = _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:24:12.542-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:24:12.575-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.056 seconds
+[2025-02-23T03:24:47.943-0500] {processor.py:186} INFO - Started process (PID=87850) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:24:47.949-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-02-23T03:24:47.953-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:24:47.952-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:24:47.961-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:24:47.959-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 133, in <module>
+    tutorial_objectstorage()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 67, in tutorial_objectstorage
+    def get_air_quality_data(**kwargs) -> ObjectStoragePath:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/python.py", line 75, in python_task
+    return task_decorator_factory(
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 680, in task_decorator_factory
+    decorator = _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:24:47.962-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:24:47.993-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.063 seconds
+[2025-02-23T03:25:21.889-0500] {processor.py:186} INFO - Started process (PID=87965) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:25:21.899-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-02-23T03:25:21.903-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:25:21.903-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:25:21.921-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:25:21.917-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 133, in <module>
+    tutorial_objectstorage()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 67, in tutorial_objectstorage
+    def get_air_quality_data(**kwargs) -> ObjectStoragePath:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/python.py", line 75, in python_task
+    return task_decorator_factory(
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 680, in task_decorator_factory
+    decorator = _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:25:21.922-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-23T03:25:21.992-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.118 seconds

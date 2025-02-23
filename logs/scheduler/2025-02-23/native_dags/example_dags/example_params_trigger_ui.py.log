@@ -1022,3 +1022,83 @@ Traceback (most recent call last):
 TypeError: _TaskDecorator() takes no arguments
 [2025-02-23T03:20:20.157-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
 [2025-02-23T03:20:20.190-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.053 seconds
+[2025-02-23T03:21:21.008-0500] {processor.py:186} INFO - Started process (PID=87179) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-02-23T03:21:21.010-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-02-23T03:21:21.013-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:21:21.013-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-02-23T03:21:21.019-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:21:21.018-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py", line 58, in <module>
+    def get_names(**kwargs) -> list[str]:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:21:21.019-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-02-23T03:21:21.053-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.053 seconds
+[2025-02-23T03:22:20.672-0500] {processor.py:186} INFO - Started process (PID=87386) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-02-23T03:22:20.680-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-02-23T03:22:20.685-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:22:20.684-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-02-23T03:22:20.696-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:22:20.693-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py", line 58, in <module>
+    def get_names(**kwargs) -> list[str]:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:22:20.697-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-02-23T03:22:20.732-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.075 seconds
+[2025-02-23T03:23:26.855-0500] {processor.py:186} INFO - Started process (PID=87596) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-02-23T03:23:26.867-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-02-23T03:23:26.871-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:23:26.871-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-02-23T03:23:26.880-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:23:26.878-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py", line 58, in <module>
+    def get_names(**kwargs) -> list[str]:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:23:26.881-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-02-23T03:23:26.939-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.093 seconds
+[2025-02-23T03:24:26.978-0500] {processor.py:186} INFO - Started process (PID=87784) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-02-23T03:24:26.984-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-02-23T03:24:26.987-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:24:26.987-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-02-23T03:24:26.992-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:24:26.991-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py", line 58, in <module>
+    def get_names(**kwargs) -> list[str]:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:24:26.993-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-02-23T03:24:27.027-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.057 seconds
+[2025-02-23T03:25:34.558-0500] {processor.py:186} INFO - Started process (PID=88003) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-02-23T03:25:34.560-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-02-23T03:25:34.563-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:25:34.562-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-02-23T03:25:34.569-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:25:34.568-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py", line 58, in <module>
+    def get_names(**kwargs) -> list[str]:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:25:34.569-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-02-23T03:25:34.606-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.057 seconds

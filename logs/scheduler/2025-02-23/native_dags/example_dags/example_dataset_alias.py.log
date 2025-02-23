@@ -990,3 +990,99 @@ Traceback (most recent call last):
 TypeError: _TaskDecorator() takes no arguments
 [2025-02-23T03:19:58.825-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
 [2025-02-23T03:19:58.868-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py took 0.069 seconds
+[2025-02-23T03:21:01.305-0500] {processor.py:186} INFO - Started process (PID=87082) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:21:01.307-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py for tasks to queue
+[2025-02-23T03:21:01.310-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:21:01.310-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:21:01.319-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:21:01.318-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py", line 53, in <module>
+    def produce_dataset_events():
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:21:01.320-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:21:01.352-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py took 0.060 seconds
+[2025-02-23T03:21:58.893-0500] {processor.py:186} INFO - Started process (PID=87299) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:21:58.895-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py for tasks to queue
+[2025-02-23T03:21:58.900-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:21:58.899-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:21:58.911-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:21:58.909-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py", line 53, in <module>
+    def produce_dataset_events():
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:21:58.911-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:21:58.941-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py took 0.058 seconds
+[2025-02-23T03:23:04.049-0500] {processor.py:186} INFO - Started process (PID=87526) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:23:04.051-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py for tasks to queue
+[2025-02-23T03:23:04.055-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:23:04.054-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:23:04.064-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:23:04.063-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py", line 53, in <module>
+    def produce_dataset_events():
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:23:04.065-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:23:04.096-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py took 0.059 seconds
+[2025-02-23T03:24:06.270-0500] {processor.py:186} INFO - Started process (PID=87720) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:24:06.272-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py for tasks to queue
+[2025-02-23T03:24:06.276-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:24:06.275-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:24:06.292-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:24:06.287-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py", line 53, in <module>
+    def produce_dataset_events():
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:24:06.292-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:24:06.372-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py took 0.118 seconds
+[2025-02-23T03:25:13.663-0500] {processor.py:186} INFO - Started process (PID=87932) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:25:13.670-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py for tasks to queue
+[2025-02-23T03:25:13.673-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:25:13.673-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:25:13.680-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:25:13.679-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py", line 53, in <module>
+    def produce_dataset_events():
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:25:13.680-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:25:13.711-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py took 0.056 seconds
+[2025-02-23T03:26:14.763-0500] {processor.py:186} INFO - Started process (PID=88139) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:26:14.771-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py for tasks to queue
+[2025-02-23T03:26:14.773-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:26:14.773-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:26:14.794-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:26:14.793-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py", line 53, in <module>
+    def produce_dataset_events():
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:26:14.794-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-02-23T03:26:14.825-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py took 0.070 seconds

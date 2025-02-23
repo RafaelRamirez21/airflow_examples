@@ -562,3 +562,9 @@
 [2025-02-23T03:19:34.139-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:19:34.138-0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
 [2025-02-23T03:19:34.139-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
 [2025-02-23T03:19:34.154-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.078 seconds
+[2025-02-23T03:20:06.524-0500] {processor.py:186} INFO - Started process (PID=86913) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2025-02-23T03:20:06.526-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2025-02-23T03:20:06.528-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:20:06.528-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2025-02-23T03:20:06.577-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:20:06.577-0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-23T03:20:06.578-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2025-02-23T03:20:06.592-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.076 seconds

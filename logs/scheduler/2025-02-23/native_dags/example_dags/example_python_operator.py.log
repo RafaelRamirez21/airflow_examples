@@ -502,3 +502,11 @@
 [2025-02-23T03:19:23.719-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:19:23.718-0500] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-23T03:19:23.737-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:19:23.737-0500] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
 [2025-02-23T03:19:23.766-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.152 seconds
+[2025-02-23T03:20:27.461-0500] {processor.py:186} INFO - Started process (PID=86977) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2025-02-23T03:20:27.463-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-02-23T03:20:27.466-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:20:27.465-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2025-02-23T03:20:27.522-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:20:27.522-0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-23T03:20:27.526-0500] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2025-02-23T03:20:27.555-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:20:27.555-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T03:20:27.575-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:20:27.575-0500] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-02-23T03:20:27.613-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.160 seconds

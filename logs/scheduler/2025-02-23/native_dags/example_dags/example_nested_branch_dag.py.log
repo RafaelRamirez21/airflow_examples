@@ -1214,3 +1214,99 @@ Traceback (most recent call last):
 TypeError: _TaskDecorator() takes no arguments
 [2025-02-23T03:34:14.555-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
 [2025-02-23T03:34:14.587-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.058 seconds
+[2025-02-23T03:35:21.934-0500] {processor.py:186} INFO - Started process (PID=90036) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:35:21.936-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-02-23T03:35:21.938-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:35:21.938-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:35:21.947-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:35:21.945-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py", line 42, in <module>
+    def branch(task_id_to_return: str) -> str:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:35:21.948-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:35:21.980-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.055 seconds
+[2025-02-23T03:36:26.363-0500] {processor.py:186} INFO - Started process (PID=90272) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:36:26.366-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-02-23T03:36:26.369-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:36:26.369-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:36:26.378-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:36:26.377-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py", line 42, in <module>
+    def branch(task_id_to_return: str) -> str:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:36:26.379-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:36:26.412-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.059 seconds
+[2025-02-23T03:37:41.868-0500] {processor.py:186} INFO - Started process (PID=90494) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:37:41.871-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-02-23T03:37:41.874-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:37:41.874-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:37:41.883-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:37:41.880-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py", line 42, in <module>
+    def branch(task_id_to_return: str) -> str:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:37:41.884-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:37:41.917-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.058 seconds
+[2025-02-23T03:38:48.276-0500] {processor.py:186} INFO - Started process (PID=90693) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:38:48.278-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-02-23T03:38:48.282-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:38:48.280-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:38:48.295-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:38:48.294-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py", line 42, in <module>
+    def branch(task_id_to_return: str) -> str:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:38:48.296-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:38:48.331-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.064 seconds
+[2025-02-23T03:39:52.310-0500] {processor.py:186} INFO - Started process (PID=90904) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:39:52.311-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-02-23T03:39:52.315-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:39:52.314-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:39:52.325-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:39:52.323-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py", line 42, in <module>
+    def branch(task_id_to_return: str) -> str:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:39:52.326-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:39:52.374-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.076 seconds
+[2025-02-23T03:41:01.947-0500] {processor.py:186} INFO - Started process (PID=91127) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:41:01.949-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-02-23T03:41:01.952-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:41:01.952-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:41:01.962-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:41:01.960-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py", line 42, in <module>
+    def branch(task_id_to_return: str) -> str:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:41:01.963-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-02-23T03:41:01.999-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.060 seconds

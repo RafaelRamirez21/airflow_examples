@@ -1518,3 +1518,123 @@ Traceback (most recent call last):
 TypeError: _TaskDecorator() takes no arguments
 [2025-02-23T03:34:10.130-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
 [2025-02-23T03:34:10.162-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.056 seconds
+[2025-02-23T03:35:17.647-0500] {processor.py:186} INFO - Started process (PID=90018) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:35:17.648-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2025-02-23T03:35:17.652-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:35:17.651-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:35:17.660-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:35:17.658-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py", line 61, in <module>
+    example_dag = example_short_circuit_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py", line 33, in example_short_circuit_decorator
+    def check_condition(condition):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:35:17.661-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:35:17.694-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.059 seconds
+[2025-02-23T03:36:21.763-0500] {processor.py:186} INFO - Started process (PID=90256) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:36:21.765-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2025-02-23T03:36:21.769-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:36:21.768-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:36:21.784-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:36:21.780-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py", line 61, in <module>
+    example_dag = example_short_circuit_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py", line 33, in example_short_circuit_decorator
+    def check_condition(condition):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:36:21.784-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:36:21.823-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.073 seconds
+[2025-02-23T03:37:37.000-0500] {processor.py:186} INFO - Started process (PID=90478) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:37:37.002-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2025-02-23T03:37:37.007-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:37:37.006-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:37:37.019-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:37:37.016-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py", line 61, in <module>
+    example_dag = example_short_circuit_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py", line 33, in example_short_circuit_decorator
+    def check_condition(condition):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:37:37.020-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:37:37.052-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.071 seconds
+[2025-02-23T03:38:43.545-0500] {processor.py:186} INFO - Started process (PID=90677) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:38:43.549-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2025-02-23T03:38:43.552-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:38:43.551-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:38:43.559-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:38:43.557-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py", line 61, in <module>
+    example_dag = example_short_circuit_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py", line 33, in example_short_circuit_decorator
+    def check_condition(condition):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:38:43.559-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:38:43.590-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.055 seconds
+[2025-02-23T03:39:48.306-0500] {processor.py:186} INFO - Started process (PID=90892) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:39:48.308-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2025-02-23T03:39:48.312-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:39:48.311-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:39:48.320-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:39:48.318-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py", line 61, in <module>
+    example_dag = example_short_circuit_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py", line 33, in example_short_circuit_decorator
+    def check_condition(condition):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:39:48.320-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:39:48.353-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.057 seconds
+[2025-02-23T03:40:57.904-0500] {processor.py:186} INFO - Started process (PID=91111) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:40:57.905-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2025-02-23T03:40:57.908-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:40:57.908-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:40:57.926-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:40:57.922-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py", line 61, in <module>
+    example_dag = example_short_circuit_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py", line 33, in example_short_circuit_decorator
+    def check_condition(condition):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:40:57.931-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-02-23T03:40:57.989-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.097 seconds

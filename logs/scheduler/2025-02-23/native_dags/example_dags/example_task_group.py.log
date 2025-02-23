@@ -552,3 +552,45 @@
 [2025-02-23T03:34:33.426-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:34:33.426-0500] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-23T03:34:33.445-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:34:33.444-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
 [2025-02-23T03:34:33.483-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.120 seconds
+[2025-02-23T03:35:41.087-0500] {processor.py:186} INFO - Started process (PID=90101) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:35:41.093-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-02-23T03:35:41.096-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:35:41.096-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:35:41.111-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:35:41.131-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:35:41.131-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T03:35:41.147-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:35:41.146-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-02-23T03:35:41.180-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.102 seconds
+[2025-02-23T03:36:47.582-0500] {processor.py:186} INFO - Started process (PID=90330) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:36:47.594-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-02-23T03:36:47.600-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:36:47.599-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:36:47.621-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:36:47.652-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:36:47.652-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T03:36:47.685-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:36:47.685-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-02-23T03:36:47.726-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.173 seconds
+[2025-02-23T03:38:04.537-0500] {processor.py:186} INFO - Started process (PID=90562) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:38:04.540-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-02-23T03:38:04.545-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:38:04.545-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:38:04.560-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:38:04.583-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:38:04.583-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T03:38:04.602-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:38:04.601-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-02-23T03:38:04.649-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.129 seconds
+[2025-02-23T03:39:07.440-0500] {processor.py:186} INFO - Started process (PID=90754) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:39:07.447-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-02-23T03:39:07.450-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:39:07.449-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:39:07.461-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:39:07.482-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:39:07.482-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T03:39:07.497-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:39:07.497-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-02-23T03:39:07.535-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.103 seconds
+[2025-02-23T03:40:16.063-0500] {processor.py:186} INFO - Started process (PID=90988) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:40:16.067-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-02-23T03:40:16.079-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:40:16.078-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:40:16.130-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:40:16.249-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:40:16.248-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T03:40:16.333-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:40:16.332-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-02-23T03:40:16.571-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.542 seconds
+[2025-02-23T03:41:21.534-0500] {processor.py:186} INFO - Started process (PID=91223) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:41:21.542-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-02-23T03:41:21.546-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:41:21.545-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:41:21.560-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-23T03:41:21.589-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:41:21.589-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T03:41:21.606-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:41:21.606-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-02-23T03:41:21.640-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.114 seconds

@@ -2038,3 +2038,163 @@ Traceback (most recent call last):
 TypeError: _TaskDecorator() takes no arguments
 [2025-02-23T03:34:59.516-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
 [2025-02-23T03:34:59.546-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.055 seconds
+[2025-02-23T03:35:32.772-0500] {processor.py:186} INFO - Started process (PID=90072) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:35:32.780-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2025-02-23T03:35:32.782-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:35:32.782-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:35:32.794-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:35:32.792-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py", line 104, in <module>
+    tutorial_taskflow_templates()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py", line 55, in tutorial_taskflow_templates
+    def template_test(sql, test_var, data_interval_end):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:35:32.795-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:35:32.825-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.061 seconds
+[2025-02-23T03:36:36.793-0500] {processor.py:186} INFO - Started process (PID=90300) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:36:36.801-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2025-02-23T03:36:36.806-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:36:36.805-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:36:36.828-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:36:36.826-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py", line 104, in <module>
+    tutorial_taskflow_templates()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py", line 55, in tutorial_taskflow_templates
+    def template_test(sql, test_var, data_interval_end):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:36:36.829-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:36:37.021-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.251 seconds
+[2025-02-23T03:37:16.042-0500] {processor.py:186} INFO - Started process (PID=90416) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:37:16.050-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2025-02-23T03:37:16.064-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:37:16.062-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:37:16.083-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:37:16.081-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py", line 104, in <module>
+    tutorial_taskflow_templates()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py", line 55, in tutorial_taskflow_templates
+    def template_test(sql, test_var, data_interval_end):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:37:16.083-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:37:16.127-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.098 seconds
+[2025-02-23T03:37:54.360-0500] {processor.py:186} INFO - Started process (PID=90529) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:37:54.361-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2025-02-23T03:37:54.364-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:37:54.364-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:37:54.376-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:37:54.374-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py", line 104, in <module>
+    tutorial_taskflow_templates()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py", line 55, in tutorial_taskflow_templates
+    def template_test(sql, test_var, data_interval_end):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:37:54.376-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:37:54.404-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.053 seconds
+[2025-02-23T03:38:58.412-0500] {processor.py:186} INFO - Started process (PID=90721) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:38:58.414-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2025-02-23T03:38:58.418-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:38:58.417-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:38:58.431-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:38:58.429-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py", line 104, in <module>
+    tutorial_taskflow_templates()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py", line 55, in tutorial_taskflow_templates
+    def template_test(sql, test_var, data_interval_end):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:38:58.432-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:38:58.469-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.065 seconds
+[2025-02-23T03:40:05.152-0500] {processor.py:186} INFO - Started process (PID=90954) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:40:05.154-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2025-02-23T03:40:05.156-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:40:05.156-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:40:05.168-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:40:05.166-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py", line 104, in <module>
+    tutorial_taskflow_templates()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py", line 55, in tutorial_taskflow_templates
+    def template_test(sql, test_var, data_interval_end):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:40:05.168-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:40:05.200-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.057 seconds
+[2025-02-23T03:40:39.842-0500] {processor.py:186} INFO - Started process (PID=91058) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:40:39.850-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2025-02-23T03:40:39.853-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:40:39.853-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:40:39.866-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:40:39.864-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py", line 104, in <module>
+    tutorial_taskflow_templates()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py", line 55, in tutorial_taskflow_templates
+    def template_test(sql, test_var, data_interval_end):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:40:39.867-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:40:39.905-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.072 seconds
+[2025-02-23T03:41:13.723-0500] {processor.py:186} INFO - Started process (PID=91162) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:41:13.724-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2025-02-23T03:41:13.727-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:41:13.726-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:41:13.739-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:41:13.737-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py", line 104, in <module>
+    tutorial_taskflow_templates()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py", line 55, in tutorial_taskflow_templates
+    def template_test(sql, test_var, data_interval_end):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:41:13.740-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-02-23T03:41:13.772-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.057 seconds

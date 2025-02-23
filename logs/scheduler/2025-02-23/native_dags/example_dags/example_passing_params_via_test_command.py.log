@@ -1278,3 +1278,99 @@ Traceback (most recent call last):
 TypeError: _TaskDecorator() takes no arguments
 [2025-02-23T03:33:57.521-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
 [2025-02-23T03:33:57.551-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.054 seconds
+[2025-02-23T03:35:04.680-0500] {processor.py:186} INFO - Started process (PID=89982) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:35:04.681-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2025-02-23T03:35:04.685-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:35:04.685-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:35:04.690-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:35:04.689-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py", line 34, in <module>
+    def my_py_command(params, test_mode=None, task=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:35:04.690-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:35:04.742-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.072 seconds
+[2025-02-23T03:36:09.404-0500] {processor.py:186} INFO - Started process (PID=90193) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:36:09.411-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2025-02-23T03:36:09.415-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:36:09.415-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:36:09.420-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:36:09.418-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py", line 34, in <module>
+    def my_py_command(params, test_mode=None, task=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:36:09.421-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:36:09.453-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.058 seconds
+[2025-02-23T03:37:23.850-0500] {processor.py:186} INFO - Started process (PID=90442) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:37:23.852-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2025-02-23T03:37:23.854-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:37:23.854-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:37:23.858-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:37:23.857-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py", line 34, in <module>
+    def my_py_command(params, test_mode=None, task=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:37:23.859-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:37:23.892-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.050 seconds
+[2025-02-23T03:38:30.445-0500] {processor.py:186} INFO - Started process (PID=90641) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:38:30.448-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2025-02-23T03:38:30.454-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:38:30.454-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:38:30.460-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:38:30.458-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py", line 34, in <module>
+    def my_py_command(params, test_mode=None, task=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:38:30.461-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:38:30.512-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.089 seconds
+[2025-02-23T03:39:34.459-0500] {processor.py:186} INFO - Started process (PID=90833) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:39:34.462-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2025-02-23T03:39:34.465-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:39:34.464-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:39:34.469-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:39:34.468-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py", line 34, in <module>
+    def my_py_command(params, test_mode=None, task=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:39:34.470-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:39:34.520-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.070 seconds
+[2025-02-23T03:40:45.054-0500] {processor.py:186} INFO - Started process (PID=91075) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:40:45.055-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2025-02-23T03:40:45.059-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:40:45.058-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:40:45.063-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:40:45.062-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py", line 34, in <module>
+    def my_py_command(params, test_mode=None, task=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:40:45.064-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-02-23T03:40:45.097-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.055 seconds

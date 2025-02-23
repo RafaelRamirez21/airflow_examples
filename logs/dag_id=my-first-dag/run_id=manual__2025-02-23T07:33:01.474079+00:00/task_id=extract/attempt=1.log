@@ -1,0 +1,28 @@
+[2025-02-23T02:33:07.822-0500] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-23T02:33:07.840-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my-first-dag.extract manual__2025-02-23T07:33:01.474079+00:00 [queued]>
+[2025-02-23T02:33:07.853-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my-first-dag.extract manual__2025-02-23T07:33:01.474079+00:00 [queued]>
+[2025-02-23T02:33:07.854-0500] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-02-23T02:33:07.882-0500] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): extract> on 2025-02-23 07:33:01.474079+00:00
+[2025-02-23T02:33:07.886-0500] {standard_task_runner.py:72} INFO - Started process 76550 to run task
+[2025-02-23T02:33:07.892-0500] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'my-first-dag', 'extract', 'manual__2025-02-23T07:33:01.474079+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/my_first_dag.py', '--cfg-path', '/tmp/tmpiz5k8y81']
+[2025-02-23T02:33:07.896-0500] {standard_task_runner.py:105} INFO - Job 11: Subtask extract
+[2025-02-23T02:33:07.955-0500] {task_command.py:467} INFO - Running <TaskInstance: my-first-dag.extract manual__2025-02-23T07:33:01.474079+00:00 [running]> on host DESKTOP-O7HQL41.
+[2025-02-23T02:33:08.075-0500] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='your_email_here' AIRFLOW_CTX_DAG_OWNER='your_name_here' AIRFLOW_CTX_DAG_ID='my-first-dag' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2025-02-23T07:33:01.474079+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-23T07:33:01.474079+00:00'
+[2025-02-23T02:33:08.077-0500] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-23T02:33:08.078-0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-23T02:33:08.078-0500] {logging_mixin.py:190} INFO - Current task name:extract state:running start_date:2025-02-23 07:33:07.840398+00:00
+[2025-02-23T02:33:08.079-0500] {logging_mixin.py:190} INFO - Dag name:my-first-dag and current dag run status:running
+[2025-02-23T02:33:08.079-0500] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-23T02:33:08.081-0500] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-02-23T02:33:08.086-0500] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'cut -d":" -f1,3,6 /etc/passwd > /home/rafaelrb/DataEngineer/apache_airflow/dags/extracted-data.txt']
+[2025-02-23T02:33:08.101-0500] {subprocess.py:99} INFO - Output:
+[2025-02-23T02:33:08.107-0500] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-02-23T02:33:08.149-0500] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-23T02:33:08.150-0500] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=my-first-dag, task_id=extract, run_id=manual__2025-02-23T07:33:01.474079+00:00, execution_date=20250223T073301, start_date=20250223T073307, end_date=20250223T073308
+[2025-02-23T02:33:08.186-0500] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-23T02:33:08.186-0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-23T02:33:08.187-0500] {logging_mixin.py:190} INFO - Dag name:my-first-dag queued_at:2025-02-23 07:33:01.544189+00:00
+[2025-02-23T02:33:08.187-0500] {logging_mixin.py:190} INFO - Task hostname:DESKTOP-O7HQL41. operator:BashOperator
+[2025-02-23T02:33:08.230-0500] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-23T02:33:08.289-0500] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-23T02:33:08.305-0500] {local_task_job_runner.py:245} INFO - ::endgroup::

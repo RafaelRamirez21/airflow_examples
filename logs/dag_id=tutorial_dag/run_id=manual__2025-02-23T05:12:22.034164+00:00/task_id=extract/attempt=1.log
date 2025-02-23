@@ -1,0 +1,25 @@
+[2025-02-23T00:12:27.578-0500] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-23T00:12:27.590-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tutorial_dag.extract manual__2025-02-23T05:12:22.034164+00:00 [queued]>
+[2025-02-23T00:12:27.605-0500] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tutorial_dag.extract manual__2025-02-23T05:12:22.034164+00:00 [queued]>
+[2025-02-23T00:12:27.605-0500] {taskinstance.py:2867} INFO - Starting attempt 1 of 3
+[2025-02-23T00:12:27.634-0500] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): extract> on 2025-02-23 05:12:22.034164+00:00
+[2025-02-23T00:12:27.638-0500] {standard_task_runner.py:72} INFO - Started process 34527 to run task
+[2025-02-23T00:12:27.646-0500] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'tutorial_dag', 'extract', 'manual__2025-02-23T05:12:22.034164+00:00', '--job-id', '4', '--raw', '--subdir', '/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py', '--cfg-path', '/tmp/tmp12cmn_wx']
+[2025-02-23T00:12:27.647-0500] {standard_task_runner.py:105} INFO - Job 4: Subtask extract
+[2025-02-23T00:12:27.711-0500] {task_command.py:467} INFO - Running <TaskInstance: tutorial_dag.extract manual__2025-02-23T05:12:22.034164+00:00 [running]> on host DESKTOP-O7HQL41.
+[2025-02-23T00:12:27.834-0500] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='tutorial_dag' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2025-02-23T05:12:22.034164+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-23T05:12:22.034164+00:00'
+[2025-02-23T00:12:27.837-0500] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-23T00:12:27.838-0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-23T00:12:27.838-0500] {logging_mixin.py:190} INFO - Current task name:extract state:running start_date:2025-02-23 05:12:27.592694+00:00
+[2025-02-23T00:12:27.838-0500] {logging_mixin.py:190} INFO - Dag name:tutorial_dag and current dag run status:running
+[2025-02-23T00:12:27.839-0500] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-23T00:12:27.862-0500] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-23T00:12:27.867-0500] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-23T00:12:27.868-0500] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=tutorial_dag, task_id=extract, run_id=manual__2025-02-23T05:12:22.034164+00:00, execution_date=20250223T051222, start_date=20250223T051227, end_date=20250223T051227
+[2025-02-23T00:12:27.905-0500] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-23T00:12:27.906-0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-23T00:12:27.906-0500] {logging_mixin.py:190} INFO - Dag name:tutorial_dag queued_at:2025-02-23 05:12:22.089331+00:00
+[2025-02-23T00:12:27.906-0500] {logging_mixin.py:190} INFO - Task hostname:DESKTOP-O7HQL41. operator:PythonOperator
+[2025-02-23T00:12:27.940-0500] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-23T00:12:27.973-0500] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-23T00:12:27.986-0500] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -598,3 +598,583 @@ Traceback (most recent call last):
 TypeError: _TaskDecorator() takes no arguments
 [2025-02-23T02:44:11.914-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
 [2025-02-23T02:44:11.945-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.057 seconds
+[2025-02-23T02:45:16.130-0500] {processor.py:186} INFO - Started process (PID=79450) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:45:16.132-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T02:45:16.135-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:45:16.134-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:45:16.144-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:45:16.142-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:45:16.145-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:45:16.177-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.057 seconds
+[2025-02-23T02:46:15.284-0500] {processor.py:186} INFO - Started process (PID=79637) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:46:15.290-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T02:46:15.293-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:46:15.292-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:46:15.300-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:46:15.298-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:46:15.300-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:46:15.333-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.058 seconds
+[2025-02-23T02:47:26.107-0500] {processor.py:186} INFO - Started process (PID=79881) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:47:26.109-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T02:47:26.112-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:47:26.111-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:47:26.121-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:47:26.117-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:47:26.122-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:47:26.159-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.063 seconds
+[2025-02-23T02:48:29.279-0500] {processor.py:186} INFO - Started process (PID=80078) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:48:29.286-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T02:48:29.289-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:48:29.288-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:48:29.296-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:48:29.294-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:48:29.296-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:48:29.334-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.063 seconds
+[2025-02-23T02:49:32.010-0500] {processor.py:186} INFO - Started process (PID=80270) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:49:32.018-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T02:49:32.020-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:49:32.020-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:49:32.028-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:49:32.026-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:49:32.028-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:49:32.061-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.060 seconds
+[2025-02-23T02:51:06.370-0500] {processor.py:186} INFO - Started process (PID=80536) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:51:06.376-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T02:51:06.381-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:51:06.380-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:51:06.396-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:51:06.393-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:51:06.396-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:51:06.429-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.073 seconds
+[2025-02-23T02:52:22.643-0500] {processor.py:186} INFO - Started process (PID=80786) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:52:22.650-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T02:52:22.654-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:52:22.653-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:52:22.662-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:52:22.659-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:52:22.662-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:52:22.695-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.061 seconds
+[2025-02-23T02:53:26.164-0500] {processor.py:186} INFO - Started process (PID=80978) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:53:26.165-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T02:53:26.168-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:53:26.168-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:53:26.175-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:53:26.173-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:53:26.176-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:53:26.208-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.053 seconds
+[2025-02-23T02:54:28.353-0500] {processor.py:186} INFO - Started process (PID=81172) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:54:28.355-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T02:54:28.358-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:54:28.358-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:54:28.366-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:54:28.363-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:54:28.366-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:54:28.401-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.058 seconds
+[2025-02-23T02:55:29.523-0500] {processor.py:186} INFO - Started process (PID=81362) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:55:29.525-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T02:55:29.528-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:55:29.527-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:55:29.537-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:55:29.535-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:55:29.538-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:55:29.572-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.059 seconds
+[2025-02-23T02:56:33.197-0500] {processor.py:186} INFO - Started process (PID=81582) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:56:33.201-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T02:56:33.203-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:56:33.203-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:56:33.211-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:56:33.209-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:56:33.211-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:56:33.252-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.064 seconds
+[2025-02-23T02:57:35.505-0500] {processor.py:186} INFO - Started process (PID=81796) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:57:35.507-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T02:57:35.511-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:57:35.510-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:57:35.519-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:57:35.517-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:57:35.520-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:57:35.556-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.066 seconds
+[2025-02-23T02:58:42.062-0500] {processor.py:186} INFO - Started process (PID=81997) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:58:42.069-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T02:58:42.072-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:58:42.072-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:58:42.079-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:58:42.077-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:58:42.079-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:58:42.111-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.057 seconds
+[2025-02-23T02:59:42.977-0500] {processor.py:186} INFO - Started process (PID=82184) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:59:42.979-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T02:59:42.982-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:59:42.982-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:59:42.992-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:59:42.987-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:59:42.993-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T02:59:43.025-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.060 seconds
+[2025-02-23T03:00:49.413-0500] {processor.py:186} INFO - Started process (PID=82384) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:00:49.415-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T03:00:49.418-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:00:49.417-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:00:49.427-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:00:49.424-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:00:49.428-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:00:49.461-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.059 seconds
+[2025-02-23T03:01:59.146-0500] {processor.py:186} INFO - Started process (PID=82645) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:01:59.148-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T03:01:59.151-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:01:59.150-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:01:59.162-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:01:59.156-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:01:59.163-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:01:59.194-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.061 seconds
+[2025-02-23T03:03:19.887-0500] {processor.py:186} INFO - Started process (PID=83476) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:03:19.891-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T03:03:19.902-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:03:19.900-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:03:19.915-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:03:19.912-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:03:19.916-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:03:19.953-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.079 seconds
+[2025-02-23T03:04:29.140-0500] {processor.py:186} INFO - Started process (PID=83718) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:04:29.142-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T03:04:29.145-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:04:29.145-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:04:29.152-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:04:29.150-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:04:29.153-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:04:29.185-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.053 seconds
+[2025-02-23T03:05:33.196-0500] {processor.py:186} INFO - Started process (PID=83913) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:05:33.198-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T03:05:33.201-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:05:33.200-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:05:33.207-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:05:33.206-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:05:33.208-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:05:33.239-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.052 seconds
+[2025-02-23T03:06:34.919-0500] {processor.py:186} INFO - Started process (PID=84130) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:06:34.920-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T03:06:34.923-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:06:34.923-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:06:34.932-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:06:34.930-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:06:34.933-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:06:34.968-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.058 seconds
+[2025-02-23T03:07:34.390-0500] {processor.py:186} INFO - Started process (PID=84309) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:07:34.393-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T03:07:34.396-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:07:34.395-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:07:34.403-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:07:34.401-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:07:34.404-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:07:34.432-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.050 seconds
+[2025-02-23T03:08:38.916-0500] {processor.py:186} INFO - Started process (PID=84511) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:08:38.922-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T03:08:38.926-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:08:38.925-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:08:38.933-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:08:38.932-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:08:38.934-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:08:38.964-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.058 seconds
+[2025-02-23T03:09:41.070-0500] {processor.py:186} INFO - Started process (PID=84727) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:09:41.075-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T03:09:41.080-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:09:41.079-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:09:41.098-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:09:41.095-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:09:41.099-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:09:41.155-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.127 seconds
+[2025-02-23T03:10:47.972-0500] {processor.py:186} INFO - Started process (PID=84931) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:10:47.974-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T03:10:47.977-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:10:47.977-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:10:47.984-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:10:47.982-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:10:47.985-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:10:48.016-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.052 seconds
+[2025-02-23T03:11:50.767-0500] {processor.py:186} INFO - Started process (PID=85153) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:11:50.809-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T03:11:50.814-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:11:50.813-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:11:50.837-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:11:50.833-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:11:50.838-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:11:50.992-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.246 seconds
+[2025-02-23T03:12:53.255-0500] {processor.py:186} INFO - Started process (PID=85348) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:12:53.262-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T03:12:53.265-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:12:53.264-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:12:53.272-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:12:53.270-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:12:53.272-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:12:53.305-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.058 seconds
+[2025-02-23T03:14:03.712-0500] {processor.py:186} INFO - Started process (PID=85563) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:14:03.715-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T03:14:03.718-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:14:03.717-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:14:03.726-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:14:03.724-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:14:03.727-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:14:03.763-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.065 seconds
+[2025-02-23T03:15:08.074-0500] {processor.py:186} INFO - Started process (PID=85819) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:15:08.077-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T03:15:08.086-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:15:08.084-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:15:08.107-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:15:08.104-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:15:08.109-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:15:08.156-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.099 seconds
+[2025-02-23T03:16:13.352-0500] {processor.py:186} INFO - Started process (PID=86027) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:16:13.359-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-02-23T03:16:13.363-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:16:13.362-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:16:13.375-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:16:13.371-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 64, in <module>
+    tutorial_etl_dag = example_sensor_decorator()
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dag.py", line 4307, in factory
+    f(**f_kwargs)
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py", line 46, in example_sensor_decorator
+    def wait_for_upstream() -> PokeReturnValue:
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:16:13.376-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-02-23T03:16:13.416-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.079 seconds

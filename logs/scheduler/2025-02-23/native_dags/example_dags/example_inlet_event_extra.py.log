@@ -510,3 +510,483 @@ Traceback (most recent call last):
 TypeError: _TaskDecorator() takes no arguments
 [2025-02-23T02:44:01.806-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
 [2025-02-23T02:44:01.838-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.054 seconds
+[2025-02-23T02:45:06.355-0500] {processor.py:186} INFO - Started process (PID=79417) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:45:06.362-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T02:45:06.367-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:45:06.367-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:45:06.381-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:45:06.380-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:45:06.382-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:45:06.420-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.084 seconds
+[2025-02-23T02:46:06.901-0500] {processor.py:186} INFO - Started process (PID=79610) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:46:06.903-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T02:46:06.907-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:46:06.906-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:46:06.916-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:46:06.915-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:46:06.916-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:46:06.948-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.055 seconds
+[2025-02-23T02:47:17.925-0500] {processor.py:186} INFO - Started process (PID=79854) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:47:17.931-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T02:47:17.936-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:47:17.935-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:47:17.955-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:47:17.954-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:47:17.956-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:47:18.001-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.088 seconds
+[2025-02-23T02:48:19.206-0500] {processor.py:186} INFO - Started process (PID=80045) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:48:19.212-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T02:48:19.215-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:48:19.214-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:48:19.225-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:48:19.224-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:48:19.225-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:48:19.254-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.057 seconds
+[2025-02-23T02:49:22.014-0500] {processor.py:186} INFO - Started process (PID=80243) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:49:22.017-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T02:49:22.022-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:49:22.021-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:49:22.037-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:49:22.033-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:49:22.038-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:49:22.085-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.083 seconds
+[2025-02-23T02:50:20.615-0500] {processor.py:186} INFO - Started process (PID=80399) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:50:20.618-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T02:50:20.630-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:50:20.629-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:50:20.675-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:50:20.663-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:50:20.676-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:50:20.836-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.256 seconds
+[2025-02-23T02:51:37.844-0500] {processor.py:186} INFO - Started process (PID=80650) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:51:37.846-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T02:51:37.849-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:51:37.849-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:51:37.860-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:51:37.859-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:51:37.860-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:51:37.889-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.053 seconds
+[2025-02-23T02:52:46.817-0500] {processor.py:186} INFO - Started process (PID=80857) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:52:46.824-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T02:52:46.827-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:52:46.827-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:52:46.837-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:52:46.836-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:52:46.838-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:52:46.874-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.065 seconds
+[2025-02-23T02:53:48.405-0500] {processor.py:186} INFO - Started process (PID=81043) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:53:48.406-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T02:53:48.411-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:53:48.410-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:53:48.423-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:53:48.421-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:53:48.424-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:53:48.484-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.089 seconds
+[2025-02-23T02:54:54.232-0500] {processor.py:186} INFO - Started process (PID=81247) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:54:54.234-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T02:54:54.237-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:54:54.237-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:54:54.247-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:54:54.246-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:54:54.247-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:54:54.279-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.056 seconds
+[2025-02-23T02:55:56.608-0500] {processor.py:186} INFO - Started process (PID=81440) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:55:56.610-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T02:55:56.614-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:55:56.614-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:55:56.624-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:55:56.623-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:55:56.625-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:55:56.658-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.059 seconds
+[2025-02-23T02:56:55.994-0500] {processor.py:186} INFO - Started process (PID=81646) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:56:56.146-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T02:56:56.150-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:56:56.149-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:56:56.167-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:56:56.165-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:56:56.167-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:56:56.210-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.227 seconds
+[2025-02-23T02:58:03.764-0500] {processor.py:186} INFO - Started process (PID=81883) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:58:03.770-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T02:58:03.774-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:58:03.774-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:58:03.791-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:58:03.790-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:58:03.791-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:58:03.837-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.082 seconds
+[2025-02-23T02:59:04.154-0500] {processor.py:186} INFO - Started process (PID=82068) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:59:04.156-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T02:59:04.159-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:59:04.158-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:59:04.169-0500] {logging_mixin.py:190} INFO - [2025-02-23T02:59:04.168-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T02:59:04.169-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T02:59:04.212-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.070 seconds
+[2025-02-23T03:00:06.647-0500] {processor.py:186} INFO - Started process (PID=82261) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:00:06.654-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T03:00:06.657-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:00:06.657-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:00:06.667-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:00:06.666-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:00:06.668-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:00:06.697-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.061 seconds
+[2025-02-23T03:01:14.275-0500] {processor.py:186} INFO - Started process (PID=82479) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:01:14.278-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T03:01:14.281-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:01:14.280-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:01:14.291-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:01:14.290-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:01:14.292-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:01:14.328-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.062 seconds
+[2025-02-23T03:02:25.845-0500] {processor.py:186} INFO - Started process (PID=82729) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:02:25.847-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T03:02:25.850-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:02:25.850-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:02:25.861-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:02:25.860-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:02:25.861-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:02:25.891-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.056 seconds
+[2025-02-23T03:03:44.707-0500] {processor.py:186} INFO - Started process (PID=83580) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:03:44.709-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T03:03:44.713-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:03:44.712-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:03:44.723-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:03:44.722-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:03:44.723-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:03:44.780-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.084 seconds
+[2025-02-23T03:04:52.338-0500] {processor.py:186} INFO - Started process (PID=83783) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:04:52.340-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T03:04:52.343-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:04:52.343-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:04:52.353-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:04:52.352-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:04:52.354-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:04:52.387-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.057 seconds
+[2025-02-23T03:05:55.388-0500] {processor.py:186} INFO - Started process (PID=83976) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:05:55.395-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T03:05:55.398-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:05:55.398-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:05:55.408-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:05:55.407-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:05:55.409-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:05:55.444-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.064 seconds
+[2025-02-23T03:06:54.537-0500] {processor.py:186} INFO - Started process (PID=84186) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:06:54.539-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T03:06:54.542-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:06:54.541-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:06:54.557-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:06:54.554-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:06:54.558-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:06:54.593-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.070 seconds
+[2025-02-23T03:07:53.534-0500] {processor.py:186} INFO - Started process (PID=84371) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:07:53.538-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T03:07:53.542-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:07:53.541-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:07:53.557-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:07:53.555-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:07:53.557-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:07:53.591-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.069 seconds
+[2025-02-23T03:08:59.283-0500] {processor.py:186} INFO - Started process (PID=84575) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:08:59.285-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T03:08:59.288-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:08:59.287-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:08:59.298-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:08:59.297-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:08:59.299-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:08:59.328-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.054 seconds
+[2025-02-23T03:10:09.241-0500] {processor.py:186} INFO - Started process (PID=84813) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:10:09.244-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T03:10:09.247-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:10:09.246-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:10:09.257-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:10:09.256-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:10:09.257-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:10:09.290-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.058 seconds
+[2025-02-23T03:11:08.795-0500] {processor.py:186} INFO - Started process (PID=85002) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:11:08.797-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T03:11:08.800-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:11:08.800-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:11:08.812-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:11:08.811-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:11:08.812-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:11:08.848-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.062 seconds
+[2025-02-23T03:12:14.455-0500] {processor.py:186} INFO - Started process (PID=85232) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:12:14.457-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T03:12:14.460-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:12:14.460-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:12:14.472-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:12:14.471-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:12:14.473-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:12:14.508-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.062 seconds
+[2025-02-23T03:13:14.761-0500] {processor.py:186} INFO - Started process (PID=85418) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:13:14.763-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T03:13:14.766-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:13:14.766-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:13:14.777-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:13:14.776-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:13:14.777-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:13:14.808-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.056 seconds
+[2025-02-23T03:14:24.674-0500] {processor.py:186} INFO - Started process (PID=85672) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:14:24.677-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T03:14:24.683-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:14:24.682-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:14:24.696-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:14:24.694-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:14:24.696-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:14:24.727-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.062 seconds
+[2025-02-23T03:15:33.208-0500] {processor.py:186} INFO - Started process (PID=85893) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:15:33.210-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T03:15:33.213-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:15:33.213-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:15:33.223-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:15:33.222-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:15:33.224-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:15:33.268-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.068 seconds
+[2025-02-23T03:16:31.903-0500] {processor.py:186} INFO - Started process (PID=86115) to work on /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:16:31.910-0500] {processor.py:914} INFO - Processing file /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
+[2025-02-23T03:16:31.912-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:16:31.912-0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:16:31.922-0500] {logging_mixin.py:190} INFO - [2025-02-23T03:16:31.921-0500] {dagbag.py:387} ERROR - Failed to import: /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+Traceback (most recent call last):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py", line 44, in <module>
+    def read_dataset_event(*, inlet_events=None):
+  File "/home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/decorators/base.py", line 691, in decorator_factory
+    return _TaskDecorator(
+TypeError: _TaskDecorator() takes no arguments
+[2025-02-23T03:16:31.922-0500] {processor.py:927} WARNING - No viable dags retrieved from /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py
+[2025-02-23T03:16:31.954-0500] {processor.py:208} INFO - Processing /home/rafaelrb/anaconda3/lib/python3.9/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.059 seconds
